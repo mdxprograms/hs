@@ -3,8 +3,6 @@ module People (
         , pAddPerson
         ) where
 
-data PeopleList = List
-
 pMsg :: String -> String
 pMsg person = person ++ " is amazing"
 
